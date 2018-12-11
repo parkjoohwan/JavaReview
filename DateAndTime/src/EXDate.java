@@ -17,7 +17,7 @@ public class EXDate {
 		Calendar c = Calendar.getInstance();
 		
 		c.set(2016, 2 ,7 );
-		
+		// Calendar 객체 내에 여러 기능 사용 가능
 		System.out.println(c.getTime());
 		System.out.println(c.getFirstDayOfWeek());
 	}
