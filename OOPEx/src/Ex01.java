@@ -1,8 +1,8 @@
 class Printer{
 	int numOfPapers = 0;
 	
-	Printer(int a){
-		this.numOfPapers = a;
+	Printer(int numOfPapers){
+		this.numOfPapers = numOfPapers;
 	}
 	
 	void print(int amount) {
