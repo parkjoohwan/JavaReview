@@ -1,22 +1,24 @@
+class Triangle{
+	double a;
+	double b;
+	
+	Triangle(double a, double b){
+		this.a=a;
+		this.b=b;
+	}
+	public  double findArea() {
+		return (a*b)/2;
+	}
+}
 
 public class Ex09 {
 
-	public static void foo(String a) {
-		System.out.println(a);
-	}
 	
-	public static void foo(String a, int b) {
-		System.out.println(a + " " + b);
-	}
-	
-	public static void foo(String a, int b, int c) {
-		System.out.println(a + " " + b + " " + c);
-	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		foo("æ»≥Á", 1);
-		foo("æ»≥Á«œººø‰",1,2);
-		foo("¿ﬂ¿÷æÓ");
+			Triangle t= new Triangle(10.0,5.0);
+			System.out.println(t.findArea());
+
+	
 
 	}
 
